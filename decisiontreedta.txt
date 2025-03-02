@@ -1,0 +1,155 @@
+is resident for tax purposes in country B?
+    yes:
+        has permanent home in country B?
+            yes:
+                has permanent home in country A?
+                    yes:
+                        has vital interests in country B?
+                            yes:
+                                has vital interests in country A:
+                                    yes:
+                                        normally stays in country B:
+                                            yes:
+                                                normally stays in country A:
+                                                    yes:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                                    no:
+                                                        CONCLUSION: tax resident in country B
+                                            no:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                    no:
+                                        CONCLUSION: tax resident in country B
+                            no:
+                                has vital interests in country A:
+                                    yes:
+                                        CONCLUSION: tax resident in country A
+                                    no:
+                                        normally stays in country B:
+                                            yes:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                            no:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                    no:
+                        CONCLUSION: tax resident in country B
+            no:
+                has permanent home in country A?
+                    yes:
+                        CONCLUSION: tax resident in country A
+                    no:
+                        has vital interests in country B?
+                            yes:
+                                has vital interests in country A:
+                                    yes:
+                                        normally stays in country B:
+                                            yes:
+                                                normally stays in country A:
+                                                    yes:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                                    no:
+                                                        CONCLUSION: tax resident in country B
+                                            no:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                    no:
+                                        CONCLUSION: tax resident in country B
+                            no:
+                                has vital interests in country A:
+                                    yes:
+                                        CONCLUSION: tax resident in country A
+                                    no:
+                                        normally stays in country B:
+                                            yes:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                                            no:
+                                                normally stays in country A:
+                                                    yes:
+                                                        CONCLUSION: tax resident in country A
+                                                    no:
+                                                        holds citizenship in country B:
+                                                            yes:
+                                                                CONCLUSION: tax resident in country B
+                                                            no:
+                                                                holds citizenship in country A:
+                                                                    yes:
+                                                                        CONCLUSION: tax resident in country A
+                                                                    no:
+                                                                        ERROR
+                    no:
+                        CONCLUSION: tax resident in country B
+    no:
+        conclusion: claim not accepted 
