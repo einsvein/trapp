@@ -1,0 +1,53 @@
+Is stay abroad permanent?
+    yes:
+        Has the person been a tax resident in Norway for more than 10 years?
+            yes:
+                Has the person stayed in Norway for more than 61 days in the income year?
+                    yes:
+                        The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+                            yes:
+                                Conclusion: Case is of type "double tax treaty"
+                            no:
+                                Conclusion: Claim not accepted "avoidance of double taxation"
+                    no:
+                        Has the person or their close family had access to a home in Norway?
+                            yes:
+                                The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+                                    yes:
+                                        Conclusion: Case is of type "double tax treaty"
+                                    no:
+                                        Conclusion: Claim not accepted "avoidance of double taxation"
+                            no:
+                                For each of the three years after moving abroad, has the person stayed in Norway for more than 61 days or had access to a home in Norway?
+                                        yes:
+                                            The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+                                                yes:
+                                                    Conclusion: Case is of type "double tax treaty"
+                                                no:
+                                                    Conclusion: Claim not accepted "avoidance of double taxation"
+                                        no:
+                                            Conclusion: Case is of type "termination of tax residency"
+            no:
+                Has the person stayed in Norway for more than 61 days in the income year?
+                    yes:
+                        The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+                            yes:
+                                Conclusion: Case is of type "double tax treaty"
+                            no:
+                                Conclusion: Claim not accepted "avoidance of double taxation"
+                    no:
+                        Has the person or their close family had access to a home in Norway?
+                            yes:
+                                The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+                                    yes:
+                                        Conclusion: Case is of type "double tax treaty"
+                                    no:
+                                        Conclusion: Claim not accepted "avoidance of double taxation"
+                            no:
+                                Conclusion: Case is of type "termination of tax residency"
+    no:
+        The person remains a tax resident in Norway. Is the person a resident for tax purposes in the other country?
+            yes:
+                Conclusion: Case is of type "double tax treaty"
+            no:
+                Conclusion: Claim not accepted "avoidance of double taxation"
